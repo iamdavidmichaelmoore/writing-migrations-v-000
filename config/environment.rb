@@ -19,11 +19,11 @@ def drop_db
   end
 end
 
-sql = <<-SQL
-  CREATE TABLE IF NOT EXISTS students (
-    id INTEGER PRIMARY KEY,
-    name TEXT
-  )
-  SQL
-
-  DB.execute(sql)
+# sql = <<-SQL
+#   CREATE TABLE IF NOT EXISTS students (
+#     id INTEGER PRIMARY KEY,
+#     name TEXT
+#   )
+#   SQL
+# 
+#   DB.execute(sql)
