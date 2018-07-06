@@ -25,5 +25,5 @@ end
 #     name TEXT
 #   )
 #   SQL
-# 
+#
 #   DB.execute(sql)
